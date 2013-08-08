@@ -1,0 +1,211 @@
+{% load cms_tags sekizai_tags menu_tags static %}
+{% load i18n %}
+
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{% block meta_title%} {% page_attribute page_title %} {% endblock%}</title>
+  <meta name="description" content="{% block meta_description %} {% page_attribute meta_description %} {% endblock %}"/>
+  <meta name="keywords" content="{% block meta_keywords %} {% page_attribute meta_keywords %} {% endblock %}"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta name="robots" content="index,follow">
+
+        <link rel="stylesheet" href="{{STATIC_URL}}css/bootstrap.css" />
+        <link rel="stylesheet" href="{{STATIC_URL}}css/custom.css" />
+        <link rel="stylesheet" href="{{STATIC_URL}}css/isotope.css" />
+        <link rel="stylesheet" href="{{STATIC_URL}}css/color_scheme.css" />
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}rs-plugin/css/settings.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/rs-responsive.css" media="screen" />
+        <link rel="stylesheet" href="{{STATIC_URL}}css/font-awesome.css" />
+        <link rel="stylesheet" href="{{STATIC_URL}}css/font-awesome-ie7.css" />
+        <link rel="stylesheet" href="{{STATIC_URL}}css/flexslider.css" />
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" type="text/css" href="css/IE-fix.css" />
+        <![endif]-->
+  {% block add_css %}{% endblock %}
+  {% render_block "css" %}
+  <!--[if IE 7]>
+    <link rel="stylesheet" href="{{STATIC_URL}}css/font-awesome-ie7.min.css">
+    <script src="{{STATIC_URL}}/js/lte-ie7.js"></script>
+  <![endif]-->
+  <!--[if lt IE 9]>
+    <script type="text/javascript" src="{{STATIC_URL}}js/vendor/html5shiv.js" ></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/vendor/selectivizr-min.js"></script>
+  <![endif]-->
+  <!--[if IE 9]>
+    <link href="{{STATIC_URL}}css/styleie9.css" rel="stylesheet">
+  <![endif]-->
+</head>
+<body>
+{% cms_toolbar %}
+
+	<div id="out_container" class="boxed">
+<!-- THE LINE AT THE VERY TOP OF THE PAGE -->
+        <div class="top_line"></div>
+<!-- HEADER AREA -->
+        <header>
+            <div class="container">
+                <div class="row">
+<!-- HEADER: LOGO AREA -->
+                    <div class="span4 logo">
+                        <a class="logo" href="/">
+                            <img alt="logo" style="margin-bottom: -65px;" title="bizstrap" src="{{ STATIC_URL }}img/logo.png">
+                        </a>
+                    </div>
+                    <div class="span4 offset4">
+<!-- HEADER: PHONE NUMBER -->
+                        <p class="head_phone">{% placeholder header_nr_tel %}</p>
+<!-- HEADER: SOCIAL ICONS -->
+
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+<!-- HEADER: PRIMARY SITE NAVIGATION -->
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <div class="container">
+                            <div class="buttons-container">
+                            </div>
+                            <div class="nav-collapse">
+                                <ul class="nav nav-pills">
+                                {% show_menu 1 100 100 100 %}
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+<!-- MAIN CONTENT AREA -->
+        <div class="main-content">
+            <div class="container">
+            <div class="bannercontainer" >
+            {% block slider %}
+                    <div class="banner" >
+
+                    {% placeholder "slider" or %}
+                    {% show_placeholder "slider" "home" %}
+                    {% endplaceholder %}
+
+                    </div>
+            {% endblock %}
+
+            </div>
+            {% block content %}
+               {% endblock %}
+
+                <hr>
+<!-- MAIN CONTENT AREA: REDESIGN CUSTOM - CLIENTS LOGO BAR -->
+                <div class="main-block clients">
+                    <div class="title-wrapper">
+                        <h2>        {% placeholder "naglowek" or %}
+                                    {% show_placeholder "naglowek" "home" %}
+                                    {% endplaceholder %}
+                        </h2>
+                    </div>
+                    <div id="clients" class="row show-grid clear-both">
+                        <div class="span12">
+                            <div class="row show-grid">
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- FOOTER STARTS HERE -->
+        <footer id="footer">
+            <div class="footer-top"></div>
+            <div class="footer-wrapper">
+                <div class="container">
+                    <div class="row show-grid">
+                        <div class="span12">
+                            <div class="row show-grid">
+<!-- FOOTER: LOGO -->
+                                <div class="span4">
+                                    <img alt="logo" title="bizstrap" class="footer-logo" src="{{ STATIC_URL }}img/logo.png" />
+<!-- FOOTER: ADDRESS -->
+                                    <address class="address">
+                                         <p><i class="icon-map-marker icon-large"></i>
+                                                         {% placeholder "adres" or %}
+                                                         {% show_placeholder "adres" "home" %}
+                                                         {% endplaceholder %}
+                                         </p>
+
+                                        <p><i>&nbsp;</i> {% placeholder "kod_miejscowosc" or %}
+                                                         {% show_placeholder "kod_miejscowosc" "home" %}
+                                                         {% endplaceholder %}
+                                        </p>
+                                        <p><i class="icon-phone icon-large"></i>
+                                                         {% placeholder "telefon" or %}
+                                                         {% show_placeholder "telefon" "home" %}
+                                                         {% endplaceholder %}
+                                        </p>
+                                        <p><i class="icon-print icon-large"></i>
+                                                         {% placeholder "fax" or %}
+                                                         {% show_placeholder "fax" "home" %}
+                                                         {% endplaceholder %}
+
+                                        </p>
+                                    </address>
+                                </div>
+<!-- FOOTER: ABOUT US -->
+                                <div class="span4 footer-center">
+                                <h4 class="center-title">
+                                                         {% placeholder "o nas naglowek" or %}
+                                                         {% show_placeholder "o nas naglowek" "home" %}
+                                                         {% endplaceholder %}
+                                </h4>
+                                <p>
+                                                         {% placeholder "o nas tresc" or %}
+                                                         {% show_placeholder "o nas tresc" "home" %}
+                                                         {% endplaceholder %}                                </p>
+                                </div>
+<!-- FOOTER: NAVIGATION LINKS -->
+                                <div class="span4 footer-right">
+                                    <h4 class="center-title">Menu</h4>
+                                    <ul class="footer-navigate">
+                                   {% show_menu 1 100 100 100 %}
+                                   </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row show-grid">
+                        <div class="span12">
+                            <p>(re)Design  by <a href="http://www.themeleaf.com">Mateusz Dargacz</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="{{STATIC_URL}}js/bootstrap.js"></script>
+        <script type="text/javascript" src="{{STATIC_URL}}js/jquery.isotope.js"></script>
+        <script type="text/javascript" src="{{STATIC_URL}}js/jquery.fancybox.pack.js?v=2.1.0"></script>
+        <script type="text/javascript" src="{{STATIC_URL}}rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+        <script type="text/javascript" src="{{STATIC_URL}}rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+	    <script type="text/javascript" src="{{STATIC_URL}}js/revolution.custom.js"></script>
+            <script type="text/javascript" src="{{ STATIC_URL }}js/jquery.flexslider-min.js"></script>
+
+	    <script type="text/javascript" src="{{STATIC_URL}}js/custom.js"></script>
+{% render_block "js" %}
+{% block add_js %}{% endblock %}
+
+</body>
+</html>
+
+
+

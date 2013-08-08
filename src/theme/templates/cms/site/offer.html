@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% load cms_tags menu_tags sekizai_tags %}
+{% load i18n %}
+
+<!-- add CSS into <header> -->
+{% block add_css %}
+     <link rel="stylesheet" href="{{STATIC_URL}}css/tabs.css" />
+{% endblock %}
+{% block content %}
+<div id="wrapper">
+  <div id="tabContainer">
+    <div class="tabs">
+      <ul>
+        <li id="tabHeader_1">Schody</li>
+        <li id="tabHeader_2">Drzwi</li>
+        <li id="tabHeader_3">Kuchnie</li>
+        <li id="tabHeader_4">Ławy</li>
+        <li id="tabHeader_5">Pozostałe usługi</li>
+      </ul>
+    </div>
+    <div class="tabscontent">
+      <div class="tabpage" id="tabpage_1">
+        <h2>Schody</h2>
+        <p>{% placeholder "offer-page1" %}</p>
+      </div>
+      <div class="tabpage" id="tabpage_2">
+        <h2>Drzwi</h2>
+        <p>{% placeholder "offer-page2" %}</p>
+      </div>
+      <div class="tabpage" id="tabpage_3">
+        <h2>Kuchnie</h2>
+        <p>{% placeholder "offer-page3" %}</p>
+      </div>
+      <div class="tabpage" id="tabpage_4">
+        <h2>Ławy</h2>
+        <p>{% placeholder "offer-page4" %}</p>
+      </div>
+      <div class="tabpage" id="tabpage_5">
+        <h2>Pozostałe usługi</h2>
+        <p>{% placeholder "offer-page5" %}</p>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+<!-- add JS before </body> -->
+{% block add_js %}
+<script type="text/javascript" src="{{STATIC_URL}}js/tabs.js"></script>
+{% endblock %}
+
+
+

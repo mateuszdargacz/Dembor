@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load cms_tags menu_tags i18n comments zinnia_tags sekizai_tags zinnia_tags %}
+{% load i18n %}
+<!-- add CSS into <header> -->
+{% block add_css %}{% endblock %}
+
+<!-- add JS before </body> -->
+{% block add_js %}
+{% endblock %}
+{% block content %}
+ <div class="col-wrapper">
+                <h1>{% placeholder "realizacje_title" %}</h1>
+
+
+
+            {% placeholder "realizacje" %}
+
+ </div>
+{% endblock %}

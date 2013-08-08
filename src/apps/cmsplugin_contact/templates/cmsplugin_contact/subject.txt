@@ -1,0 +1,1 @@
+[Wiadomosc z czyszczenie-trojmiasto.pl] - {{ subject }}

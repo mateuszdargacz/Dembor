@@ -1,0 +1,12 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Technik -- Backend -- technik[>at<]internetprofil[>dot<]pl
+
+# TECHNOLOGY & RESOURCES COLOPHON
+
+    HTML5, CSS3, Bootrstrap, Responsive, Less
+    jQuery, Modernizr, initializr
+    Python, Django 

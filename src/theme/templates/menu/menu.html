@@ -1,0 +1,29 @@
+{% load menu_tags %}
+{% for child in children %}
+<li class=" single {% if child.selected or child.has_active_child %}active{% endif %}{% if child.children %} dropdown{% endif %}">
+  {% if child.children %}
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ child.get_menu_title }}<b class="caret"></b></a>
+  {% else %}
+  <a href="{{ child.attr.redirect_url|default:child.get_absolute_url }}" title="{{ child.get_menu_title }}">{{ child.get_menu_title }}</a>	
+	{% endif %}
+	{% if child.children %}
+    <ul class="dropdown-menu">
+        {% show_menu 1 100 100 100 "menu/sub_menu.html" %}
+    </ul>
+    {% endif %}
+</li>
+{% endfor %}
+
+
+
+{% comment %}
+<li class="active dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home<b class="caret"></b></a>
+  <ul class="dropdown-menu">
+    <li><a href="index.html">Home standard</a></li>
+    <li><a href="index2.html">Home alternative</a></li>
+    <li><a href="index3.html">Home alternative 2</a></li>
+    <li><a href="index4.html">Home alternative 3</a></li>
+  </ul>
+</li>
+{% endcomment %}

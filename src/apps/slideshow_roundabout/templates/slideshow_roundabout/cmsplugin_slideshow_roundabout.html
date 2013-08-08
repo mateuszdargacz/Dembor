@@ -1,0 +1,42 @@
+{% load sekizai_tags %}
+{% load thumbnail %}
+{% addtoblock "js" %}<script type="text/javascript" src="{{ STATIC_URL }}slideshow_roundabout/js/jquery.roundabout.js"></script>{% endaddtoblock %}
+{% if instance.use_fancybox %}
+{% addtoblock "js" %}<script type="text/javascript" src="{{ STATIC_URL }}plugins/fancybox/jquery.fancybox.js"></script>{% endaddtoblock %}
+{% addtoblock "css" %}<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}plugins/fancybox/jquery.fancybox.css"></script>{% endaddtoblock %}
+{% endif %}
+
+{% addtoblock "js" %}
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('ul.roundabout-holder').roundabout({
+        btnNext: ".roundabout-next",
+        btnPrev: ".roundabout-prev",
+        autoplay: true,
+        autoplayDuration: 4000,
+        autoplayPauseOnHover: true,
+        responsive: true
+      });
+      {% if instance.use_fancybox %}
+      $("#roundabout-id-{{ instance.pk }} a").fancybox();
+      {% endif %}
+    });
+</script>
+{% endaddtoblock %}
+
+<div id="roundabout-id-{{ instance.pk }}" class="roundabout-container">
+	<ul class="roundabout-holder">
+	  {% for slide in slides %}
+	  	<li>
+	  		<a href="{% if instance.use_fancybox %}{{ slide.img.url }}{% else %}#{% endif %}" rel="roundabout-id-{{ instance.pk }}">
+	  			<img src="{% thumbnail slide.img 191x272 %}" alt="{{ slide.title }}"/>
+	  		</a>
+	  	</li>
+	  {% endfor %}
+	</ul>
+	
+	{% if slides|length > 1 %}
+	<a href="#" class="roundabout-prev"></a>
+	<a href="#" class="roundabout-next"></a>
+	{% endif %}
+</div>

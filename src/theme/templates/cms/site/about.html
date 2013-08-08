@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load cms_tags menu_tags sekizai_tags %}
+{% load i18n %}
+
+<!-- add CSS into <header> -->
+{% block add_css %}{% endblock %}
+
+<!-- add JS before </body> -->
+{% block add_js %}
+{% endblock %}
+{% block content %}
+<div class="span12">
+<!-- BREADCRUMBS -->
+
+<!-- BEGIN LEFT-SIDEBAR -->
+                            <div id="left-sidebar" class="span2 sidebar">
+<!-- LEFT-SIDEBAR: SIDEBAR NAVIGATION -->
+                                <div class="side-nav sidebar-block">
+                                    <h2>MENU</h2>
+                                    <ul>
+                                        {% show_menu 1 100 100 100 %}
+                                    </ul>
+                                </div>
+                            </div>
+<!-- END LEFT-SIDEBAR -->
+
+<!-- BEGIN ARTICLE CONTENT AREA -->
+                            <div class="span8 main-column two-columns-left">
+                                <article>
+                                    <h1>O Firmie</h1>
+                                    
+                                    <p>{% placeholder "o_firmie_akapit1" %}</p>
+                                    <p>{% placeholder "o_firmie_akapit2" %}</p>
+                                    <p>{% placeholder "o_firmie_akapit3" %}</p>
+                                </article>
+<!-- END ARTICLE CONTENT AREA -->
+                            </div>
+                        </div>
+
+{% endblock %}

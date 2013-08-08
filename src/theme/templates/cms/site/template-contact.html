@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% load cms_tags menu_tags sekizai_tags %}
+{% load i18n %}
+
+<!-- add CSS into <header> -->
+{% block add_css %}{% endblock %}
+
+<!-- add JS before </body> -->
+{% block add_js %}
+{% endblock %}
+
+{% block slider %}
+{% endblock %}
+
+{% block content %}
+<div id="wrapper">
+
+  <!-- start: Container -->
+  <div class="container">
+
+    <!-- start: Row -->
+      <br/><br/>
+
+    <div class="row">
+
+     <div class="span12">
+          {% placeholder "top" %}
+      </div>
+    </div>
+      <hr>
+    <div class="row">
+      <div class="span">
+        <div class="row">
+          <div class="contact-info span5">
+              <h2>{% placeholder "kontakt_title" %}</h2>
+<!-- COMPANY ADDRESS -->
+                                    <address class="address">
+                                         <p><i class="icon-map-marker icon-large"></i>
+                                                         {% placeholder "adres" or %}
+                                                         {% show_placeholder "adres" "home" %}
+                                                         {% endplaceholder %},  {% placeholder "kod_miejscowosc" or %}
+                                                         {% show_placeholder "kod_miejscowosc" "home" %}
+                                                         {% endplaceholder %}
+                                         </p>
+
+                                        <p><i class="icon-phone icon-large"></i>
+                                                         {% placeholder "telefon" or %}
+                                                         {% show_placeholder "telefon" "home" %}
+                                                         {% endplaceholder %}
+                                        </p>
+                                        <p><i class="icon-print icon-large"></i>
+                                                         {% placeholder "fax" or %}
+                                                         {% show_placeholder "fax" "home" %}
+                                                         {% endplaceholder %}
+
+                                        </p>
+                                    </address>
+              <h2>{% placeholder "godz_otw_title" %}</h2>
+                                        <table class="table">
+                                        <tbody>
+                                            <tr>
+                                                <td class="small">pn. - pt. : </td>
+                                                <td class="bold"> 8:00 - 17:00 </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="small">sob. :</td>
+                                                <td class="bold">8:00 - 16:00</td>
+                                            </tr>
+                                        </tbody>
+                                        </table>
+
+          </div>
+          <div class="contact-info span7">
+            {% placeholder "columns_right" %}
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

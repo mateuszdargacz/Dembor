@@ -1,0 +1,12 @@
+{% load i18n %}
+<ul class="links-list-alt">
+  {% for entry in entries %}
+  <li>
+    <a href="{{ entry.get_absolute_url }}" title="{{ entry.title }}" rel="bookmark">{{ entry.title }} - {% blocktrans count comment_count=entry.comment_count %}{{ comment_count }} comment{% plural %}{{ comment_count }} comments{% endblocktrans %}</a>
+  </li>
+  {% empty %}
+  <li>
+    {% trans "No entries yet." %}
+  </li>
+  {% endfor %}
+</ul>

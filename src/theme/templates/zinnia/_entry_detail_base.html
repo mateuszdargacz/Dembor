@@ -1,0 +1,78 @@
+{% load comments i18n zinnia_tags %}
+{% load url from future %}
+
+{% block entry-body %}
+
+<li class="span3 small hp-wrapper {% get_object_categories object %}">
+
+
+    {% block entry-title %}
+      <div class="bottom-block">
+        {% if continue_reading %}
+        <a href="{{ object.get_absolute_url }}"
+           title="{{ object.title }}" rel="bookmark">{{ object.title }}</a>
+        {% else %}
+        {{ object.title }}
+        {% endif %}
+      </div>
+      <div class="post_sub">
+          <i class="icon-time"></i>
+          {% block entry-last-update %}
+               <abbr class="published" title="{{ object.creation_date|date:"c" }}">
+            {{ object.creation_date|date:"DATE_FORMAT" }}
+          </abbr>
+           {% endblock %}
+
+     </div>
+    {% endblock %}
+
+
+
+
+   {% block entry-image %}
+  {% if object.image %}
+ <a href="{{ object.get_absolute_url }}"><img alt="" src="{{ STATIC_URL }}img/220_arrow_hover.png" class="hover-shade">
+                            </a>
+                            <a href="{{ object.get_absolute_url }}" class="top-link"><img alt="" style="width: 220px; height: 160px;" src="{{ object.image.url }}"></a>
+
+    {% if continue_reading %}
+
+    <a href="{{ object.get_absolute_url }}">
+        <img alt="" src="{{ STATIC_URL }}img/220_arrow_hover.png" class="hover-shade">
+    </a>
+    <a href="{{ object.get_absolute_url }}" class="top-link">
+        <img style="width: 220px; height: 160px;" src="{{ object.image.url }}" alt="{{ object.pk }}">
+    </a>
+      {% endif %}
+      <img style="width: 220px; height: 160px;" src="{{ object.image.url }}" alt="{{ object.pk }}">
+      {% if continue_reading %}
+
+    {% endif %}
+
+  {% endif %}
+  {% endblock %}
+
+    {% block entry-content %}
+    <p>
+      {{ object_content }}
+
+    </p>
+    {% endblock %}
+
+    {% block continue-reading %}
+    {% if continue_reading %}
+    <a href="{{ object.get_absolute_url }}"
+       title="{% blocktrans with object=object.title %}Continue reading {{ object }}{% endblocktrans %}"
+       class="post-entry"
+       rel="bookmark">
+      {% trans "Continue reading" %}...
+    </a>
+    {% endif %}
+    {% endblock %}
+
+  </li>
+{% endblock %}
+
+
+
+

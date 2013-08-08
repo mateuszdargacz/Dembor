@@ -1,0 +1,34 @@
+{% load thumbnail %}
+
+   <div class="portfolio-nav">
+<!-- SET PORTFOLIO NAV FILTERS HERE -->
+					<ul id="filters" data-option-key="filter" class="nav nav-pills nav-pills-portfolio">
+                        <li class="active"><a href="#" data-toggle="pill" data-filter="*">All</a></li>
+                        {% for cat in categories %}
+                        <li><a href="#" data-toggle="pill" data-filter=".{{ cat.name }}">{{ cat.name }}</a></li>
+                        {% endfor %}
+                    </ul>
+<!-- SET PORTFOLIO NAV SWITCHES -->
+
+                </div>
+<!-- END PORTFOLIO NAV -->
+
+<!-- START PORTFOLIO GRID -->
+                <div class="portfolio-grid-1 main-block">
+                    <ul id="gallery" class="thumbnails">
+<!-- PORTFOLIO ITEMs -->
+                        {% for image in images %}
+                        <li class="span3 small hp-wrapper {{ image.category }}">
+                            <a href="#"><img alt="" src="{{ STATIC_URL }}img/220_arrow_hover.png" class="hover-shade">
+                            </a>
+                            <a class="fancybox" rel="group" href="{{ image.src.url }}" class="top-link"><img alt="{{ image.alt }}" style="width: 220px; height: 160px;" src="{% thumbnail image.src 220x160 crop %}"></a>
+                            <div class="bottom-block">
+
+                                <p>{{ image.title }}</p>
+                            </div>
+                        </li>
+                        {% endfor %}
+
+
+                    </ul>
+                </div>

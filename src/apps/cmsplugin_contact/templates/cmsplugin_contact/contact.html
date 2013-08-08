@@ -1,0 +1,93 @@
+{% load i18n %}
+
+{% if form %}
+	<form action="." method="post" class="form-vertical">
+		<div class="control-group{% if form.name.errors %} error{% endif %}">
+			{% if form.name.errors %}
+				{% for error in form.name.errors %}
+					<span class="help-inline">{{ error }}</span>
+				{% endfor %}
+			{% endif %}
+		    <div class="controls">
+			  <input id="id_name" class="span5" name="name" type="text" placeholder="{{ contact.name_label }}">
+			</div>
+		</div>
+		<div class="control-group{% if form.email.errors %} error{% endif %}">
+			{% if form.email.errors %}
+				{% for error in form.email.errors %}
+					<span class="help-inline">{{ error }}</span>
+				{% endfor %}
+			{% endif %}
+		    <div class="controls">
+				  <input id="id_email" class="span5" name="email" type="text" placeholder="{{ contact.email_label }}">
+			</div>
+		</div>
+		<div class="control-group{% if form.subject.errors %} error{% endif %}">
+			{% if form.subject.errors %}
+				{% for error in form.subject.errors %}
+					<span class="help-inline">{{ error }}</span>
+				{% endfor %}
+			{% endif %}
+		    <div class="controls">
+			  <input id="id_subject" name="subject" class="span5" type="text" placeholder="{{ contact.subject_label }}">
+			</div>
+		</div>
+		<div class="control-group{% if form.content.errors %} error{% endif %}">
+			{% if form.content.errors %}
+				{% for error in form.content.errors %}
+					<span class="help-inline">{{ error }}</span>
+				{% endfor %}
+			{% endif %}
+			<div class="controls">
+			  <textarea id="id_content" class="span5" name="content" rows="6" placeholder="{{ contact.content_label }}"></textarea>
+		    </div>
+		</div>
+		
+		
+		{% if form.recaptcha_challenge_field %}
+			<div {% if form.recaptcha_response_field.errors %}class="error"{% endif %}>
+				{{ form.recaptcha_challenge_field }}
+				{% if form.recaptcha_theme == "custom" %}
+					<div id="recaptcha_widget" style="display:none">
+					
+					<div id="recaptcha_image"></div>
+					<span class="recaptcha_only_if_incorrect_sol error_msg">{% trans "Incorrect please try again" %}</span>
+					
+					<label>
+						<span class="recaptcha_only_if_image">{% trans "Enter the words above:" %}</span>
+						<span class="recaptcha_only_if_audio">{% trans "Enter the numbers you hear:" %}</span>
+					</label>
+					
+					<input type="text" id="recaptcha_response_field" name="recaptcha_response_field" />
+					
+					<div><a href="javascript:Recaptcha.reload()">{% trans "Get another CAPTCHA" %}</a></div>
+					<div class="recaptcha_only_if_image"><a href="javascript:Recaptcha.switch_type('audio')">{% trans "Get an audio CAPTCHA" %}</a></div>
+					<div class="recaptcha_only_if_audio"><a href="javascript:Recaptcha.switch_type('image')">{% trans "Get an image CAPTCHA" %}</a></div>
+					
+					<div><a href="javascript:Recaptcha.showhelp()">{% trans "Help" %}</a>
+					
+					</div>
+				{% endif %}
+			
+				{% if form.recaptcha_response_field.label %}<label class="contact_field">{{ form.recaptcha_response_field.label }}</label>{% endif %}
+				{{ form.recaptcha_response_field }}
+			{% if form.recaptcha_response_field.errors %}
+				{% for error in form.recaptcha_response_field.errors %}
+					<span class="error_msg">{% trans error %}</span>
+				{% endfor %}
+			{% endif %}
+			</div>
+		{% endif %}
+		
+		{% if form.accept_terms %}
+			{{ form.accept_terms }}
+		{% endif %}
+		
+		 <button type="submit" class="btn btn-primary">{% if contact.submit %}{{ contact.submit }}{% endif %}</button>
+		
+		{% csrf_token %}
+	</form>
+
+{% else %}
+	<div class="alert alert-success fade in">{{ contact.thanks|safe }} <a class="close contact_close" data-dismiss="alert" href="#">&times;</a></div>
+{% endif %}

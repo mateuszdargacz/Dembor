@@ -1,0 +1,72 @@
+{% extends "zinnia/base.html" %}
+{% load cms_tags sekizai_tags menu_tags static %}
+{% load i18n %}
+{% load comments i18n zinnia_tags %}
+{% load url from future %}
+{% block content %}
+<div class="row show-frid col-wrapper">
+<!-- PORTFOLIO ITEM DESCRIPTION -->
+                    <div class="span8">
+                        <h1></h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula vulputate condimentum. Vivamus dapibus enim a felis semper iaculis. Nulla eu turpis purus. Morbi at neque in sapien molestie rutrum.</p>
+
+                        <h3 class="text-info">Skills used to complete the projects</h3>
+
+                        <ul class="icons">
+                        	<li><i class="icon-ok"></i> Graphic Design</li>
+                        	<li><i class="icon-ok"></i> Branding</li>
+                        	<li><i class="icon-ok"></i> Identity</li>
+                        	<li><i class="icon-ok"></i> Business Strategy</li>
+                        	<li><i class="icon-ok"></i> Product Management</li>
+                        </ul>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula vulputate condimentum. Vivamus dapibus enim a felis semper iaculis. Nulla eu turpis purus. Morbi at neque in sapien molestie rutrum.</p>
+
+                        <p>Mauris libero neque, pulvinar non fringilla quis, pellentesque a nisl. Aliquam a ipsum a ligula blandit sollicitudin sit amet eu sem. Quisque consequat condimentum magna, sed porta lorem interdum et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula vulputate condimentum.</p>
+
+                    </div>
+					<div class="span1"></div>
+<!-- PORTFOLIO ITEM DETAIL LIST -->
+                    <div class="span3 portfolio-details">
+                      <button class="btn btn-primary" type="button"><i class="icon-circle-arrow-left"></i>  Back to Portfolio</button>
+                        <br />
+                        <br />
+                        <ul class="item-details">
+                            <li>
+                                <span class="title">Client:</span>ThemeLeaf</li>
+                            <li>
+                                <span class="title">Date:</span>August 2012</li>
+                            <li class="website">
+                                <a href="#"><i class="icon-link"></i>Website</a>
+                            </li>
+                            <li class="tags">
+                                <p><i class="icon-tags icon-large"></i>Print, Logo, Identity</p>
+                            </li>
+                            <li class="share">
+                                <span>Share:</span>
+                                <!-- AddThis Button BEGIN -->
+                                <div class="addthis_toolbox addthis_default_style ">
+                                    <a class="addthis_button_preferred_1"></a>
+                                    <a class="addthis_button_preferred_2"></a>
+                                    <a class="addthis_button_preferred_3"></a>
+                                    <a class="addthis_button_preferred_4"></a>
+                                    <a class="addthis_button_compact"></a>
+                                    <a class="addthis_counter addthis_bubble_style"></a>
+                                </div>
+                                <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-5049c90c240a9d63"></script>
+                                <!-- AddThis Button END -->
+                            </li>
+                      </ul>
+                      <br />
+
+                        <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat.</p></blockquote>
+
+                    </div>
+
+
+                </div>
+{{ object.content|safe }}
+
+{% block gallery %}
+{% endblock %}
+{% endblock %}
