@@ -7,6 +7,7 @@ PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
 
 sys.path.append(os.path.join(PROJECT_PATH, 'libs'))
 sys.path.append(os.path.join(PROJECT_PATH, 'apps'))
+sys.path.insert(0, '/var/www/Dembor')
 # Django settings for nanbit project.
 
 DEBUG = True
@@ -23,9 +24,10 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
         'NAME': 'debor', # Or path to database file if using sqlite3.
         'USER': 'root', # Not used with sqlite3.
-        'PASSWORD': '', # Not used with sqlite3.
-        'HOST': '127.0.0.1', # Set to empty string for localhost. Not used with sqlite3.
-        'PORT': '3306', # Set to empty string for default. Not used with sqlite3.
+        'PASSWORD': 'lipton#321', # Not used with sqlite3.
+        'HOST': '', # Set to empty string for localhost. Not used with sqlite3.
+        'PORT': '', # Set to empty string for default. Not used with sqlite3.
+
     }
 }
 

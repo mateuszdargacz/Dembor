@@ -3177,9 +3177,9 @@ p#note {
     -ms-transition: background 1s ease;
     -o-transition: background 1s ease;
     transition: background 1s ease;
-    width: 122px;
-    height: 123px;
-    top:298px;
+    width: 121px;
+    height: 121px;
+    top:299px;
     position: absolute;
     z-index: 540;
 
@@ -3195,8 +3195,8 @@ p#note {
     -ms-transition: background 1s ease;
     -o-transition: background 1s ease;
     transition: background 1s ease;
-    width: 122px;
-    height: 122px;
+    width: 121px;
+    height: 121px;
     top:216px;
     position: absolute;
     z-index: 540;
