@@ -1115,6 +1115,7 @@
         height: 160px;
         width: auto;
     }
+
     .tour-btn {
         padding: 0 21px 25px;
     }
@@ -2876,6 +2877,11 @@ blockquote:before {
     left: -9999em;
     top: 0;
 }
+.hover-shade:hover {
+position: absolute;
+left: 0;
+top: 0;
+}
 .block-posts {
     margin-bottom: 80px;
 }
@@ -3142,7 +3148,7 @@ p#note {
 }
 .main-button{
     width: 122px;
-    height: 400px;
+    height: 125px;
     display:inline-block;
     margin-left: 20px;
     background-color: none;

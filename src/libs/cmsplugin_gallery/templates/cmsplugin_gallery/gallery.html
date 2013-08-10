@@ -3,7 +3,7 @@
    <div class="portfolio-nav">
 <!-- SET PORTFOLIO NAV FILTERS HERE -->
 					<ul id="filters" data-option-key="filter" class="nav nav-pills nav-pills-portfolio">
-                        <li class="active"><a href="#" data-toggle="pill" data-filter="*">All</a></li>
+                        <li class="active"><a href="#" data-toggle="pill" data-filter="*">Wszystkie</a></li>
                         {% for cat in categories %}
                         <li><a href="#" data-toggle="pill" data-filter=".{{ cat.name }}">{{ cat.name }}</a></li>
                         {% endfor %}
@@ -15,18 +15,15 @@
 
 <!-- START PORTFOLIO GRID -->
                 <div class="portfolio-grid-1 main-block">
-                    <ul id="gallery" class="thumbnails">
+                    <ul id="gallery" class="thumbnails gallery isotope" style="position: relative; overflow: hidden; height: 570px;">
 <!-- PORTFOLIO ITEMs -->
                         {% for image in images %}
-                        <li class="span3 small hp-wrapper {{ image.category }}">
-                            <a href="#"><img alt="" src="{{ STATIC_URL }}img/220_arrow_hover.png" class="hover-shade">
-                            </a>
-                            <a class="fancybox" rel="group" href="{{ image.src.url }}" class="top-link"><img alt="{{ image.alt }}" style="width: 220px; height: 160px;" src="{% thumbnail image.src 220x160 crop %}"></a>
-                            <div class="bottom-block">
-
-                                <p>{{ image.title }}</p>
-                            </div>
+                        <li class="span3 small hp-wrapper item isotope-item {{ image.category }}" style="position: absolute; left: 0px; top: 0px; -webkit-transform: translate3d(480px, 0px, 0px);">
+                            <a href="{{ image.src.url }}" rel="group" class="top-link fancybox thumbnail">
+								<img alt="{{ image.alt }}" style="width: 220px; height: 160px;" src="{{ image.src.url }}">
+					        </a>
                         </li>
+
                         {% endfor %}
 
 
