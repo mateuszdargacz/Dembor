@@ -2,7 +2,10 @@
 {% load cms_tags menu_tags i18n comments zinnia_tags sekizai_tags zinnia_tags %}
 {% load i18n %}
 <!-- add CSS into <header> -->
-{% block add_css %}{% endblock %}
+{% block add_css %}
+<link rel="stylesheet" href="{{ STATIC_URL }}css/jquery.fancybox.css?v=2.1.0" type="text/css" media="screen" />
+
+{% endblock %}
 
 <!-- add JS before </body> -->
 {% block add_js %}
