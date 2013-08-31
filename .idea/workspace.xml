@@ -4,7 +4,6 @@
     <list default="true" id="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/theme/templates/base.html" afterPath="$PROJECT_DIR$/src/theme/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html" afterPath="$PROJECT_DIR$/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/theme/templates/cms/site/offer.html" afterPath="$PROJECT_DIR$/src/theme/templates/cms/site/offer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="debor.iws" />
@@ -106,10 +105,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cmsplugin_slideshow_parallax.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="cmsplugin_slideshow_parallax.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="-1.9615384">
+            <state line="8" column="4" selection-start="308" selection-end="308" vertical-scroll-proportion="0.272">
               <folding />
             </state>
           </provider>
@@ -133,10 +132,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/theme/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="205" column="55" selection-start="9887" selection-end="9887" vertical-scroll-proportion="0.854">
+            <state line="205" column="0" selection-start="9739" selection-end="9739" vertical-scroll-proportion="-22.5">
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -223,8 +222,8 @@
         <option value="$PROJECT_DIR$/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html" />
         <option value="$PROJECT_DIR$/src/theme/static/css/custom.css" />
         <option value="$PROJECT_DIR$/src/theme/templates/cms/site/offer.html" />
-        <option value="$PROJECT_DIR$/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html" />
         <option value="$PROJECT_DIR$/src/theme/templates/base.html" />
+        <option value="$PROJECT_DIR$/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html" />
       </list>
     </option>
   </component>
@@ -729,7 +728,11 @@
       <created>1377966878520</created>
       <updated>1377966878520</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="base features">
+      <created>1377967141233</created>
+      <updated>1377967141233</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -909,19 +912,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="-1.9615384">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/theme/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="55" selection-start="9887" selection-end="9887" vertical-scroll-proportion="0.854">
+        <state line="205" column="0" selection-start="9739" selection-end="9739" vertical-scroll-proportion="-22.5">
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="308" selection-end="308" vertical-scroll-proportion="0.272">
+          <folding />
         </state>
       </provider>
     </entry>
