@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="{{STATIC_URL}}css/font-awesome.css" />
         <link rel="stylesheet" href="{{STATIC_URL}}css/font-awesome-ie7.css" />
         <link rel="stylesheet" href="{{STATIC_URL}}css/flexslider.css" />
+
         <!--[if lte IE 8]>
             <link rel="stylesheet" type="text/css" href="css/IE-fix.css" />
         <![endif]-->
@@ -85,18 +86,16 @@
 <!-- MAIN CONTENT AREA -->
         <div class="main-content">
             <div class="container">
-            <div class="bannercontainer" >
+
             {% block slider %}
-                    <div class="banner" >
+
 
                     {% placeholder "slider" or %}
                     {% show_placeholder "slider" "home" %}
                     {% endplaceholder %}
 
-                    </div>
             {% endblock %}
 
-            </div>
             {% block content %}
                {% endblock %}
 
@@ -193,12 +192,12 @@
 
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
         <script type="text/javascript" src="{{STATIC_URL}}js/bootstrap.js"></script>
+        <script type="text/javascript" src="{{STATIC_URL}}js/jquery.flexslider-min.js"></script>
         <script type="text/javascript" src="{{STATIC_URL}}js/jquery.isotope.js"></script>
         <script type="text/javascript" src="{{STATIC_URL}}js/jquery.fancybox.pack.js?v=2.1.0"></script>
         <script type="text/javascript" src="{{STATIC_URL}}rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
         <script type="text/javascript" src="{{STATIC_URL}}rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 	    <script type="text/javascript" src="{{STATIC_URL}}js/revolution.custom.js"></script>
-            <script type="text/javascript" src="{{ STATIC_URL }}js/jquery.flexslider-min.js"></script>
 
 	    <script type="text/javascript" src="{{STATIC_URL}}js/custom.js"></script>
 {% render_block "js" %}
