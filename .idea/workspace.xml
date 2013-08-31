@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/theme/templates/base.html" afterPath="$PROJECT_DIR$/src/theme/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html" afterPath="$PROJECT_DIR$/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/theme/templates/cms/site/offer.html" afterPath="$PROJECT_DIR$/src/theme/templates/cms/site/offer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="debor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1377965376706" ignored="false" />
+    <file path="/Dummy.txt" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1377967138810" ignored="false" />
     <file path="/settings.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376123691113" ignored="false" />
     <file path="/main.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375628836328" ignored="false" />
     <file path="/custom.css" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376731538043" ignored="false" />
@@ -15,7 +17,7 @@
     <file path="$USER_HOME$/darbud/src/theme/templates/base.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1374069840316" ignored="false" />
     <file path="/local_settings.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375988336321" ignored="false" />
     <file path="$USER_HOME$/darbud/darbud/src/settings.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375363964902" ignored="false" />
-    <file path="/base.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376588301812" ignored="false" />
+    <file path="/base.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1377967126789" ignored="false" />
     <file path="/a.dummy" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376733144433" ignored="false" />
     <file path="/cmsplugin_slideshow_parallax.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1377965770202" ignored="false" />
     <file path="/offer.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376135109871" ignored="false" />
@@ -104,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cmsplugin_slideshow_parallax.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="cmsplugin_slideshow_parallax.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="238" selection-end="238" vertical-scroll-proportion="0.238">
+            <state line="3" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="-1.9615384">
               <folding />
             </state>
           </provider>
@@ -131,11 +133,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/theme/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="0" selection-start="3974" selection-end="3974" vertical-scroll-proportion="-0.65384614">
-              <folding />
+            <state line="205" column="55" selection-start="9887" selection-end="9887" vertical-scroll-proportion="0.854">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,7 +147,7 @@
       <file leaf-file-name="offer.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/theme/templates/cms/site/offer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="12" selection-start="962" selection-end="962" vertical-scroll-proportion="-9.807693">
+            <state line="16" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="-10.461538">
               <folding />
             </state>
           </provider>
@@ -152,7 +156,7 @@
       <file leaf-file-name="realizacje.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/theme/templates/cms/site/realizacje.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="47" selection-start="174" selection-end="286" vertical-scroll-proportion="0.0">
+            <state line="5" column="47" selection-start="174" selection-end="286" vertical-scroll-proportion="-3.2692308">
               <folding />
             </state>
           </provider>
@@ -217,10 +221,10 @@
         <option value="$PROJECT_DIR$/src/theme/templates/cms/site/realizacje.html" />
         <option value="$PROJECT_DIR$/src/apps/cmsplugin_contact/templates/cmsplugin_contact/subject.txt" />
         <option value="$PROJECT_DIR$/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html" />
-        <option value="$PROJECT_DIR$/src/theme/templates/base.html" />
         <option value="$PROJECT_DIR$/src/theme/static/css/custom.css" />
         <option value="$PROJECT_DIR$/src/theme/templates/cms/site/offer.html" />
         <option value="$PROJECT_DIR$/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html" />
+        <option value="$PROJECT_DIR$/src/theme/templates/base.html" />
       </list>
     </option>
   </component>
@@ -721,7 +725,11 @@
       <created>1377965382081</created>
       <updated>1377965382081</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="base features">
+      <created>1377966878520</created>
+      <updated>1377966878520</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -840,13 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/theme/templates/cms/site/realizacje.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="47" selection-start="174" selection-end="286" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/apps/cmsplugin_contact/templates/cmsplugin_contact/subject.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="35" selection-start="34" selection-end="35" vertical-scroll-proportion="0.0">
@@ -894,24 +895,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/theme/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/src/theme/templates/cms/site/offer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="0" selection-start="3974" selection-end="3974" vertical-scroll-proportion="-0.65384614">
+        <state line="16" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="-10.461538">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/theme/templates/cms/site/offer.html">
+    <entry file="file://$PROJECT_DIR$/src/theme/templates/cms/site/realizacje.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="12" selection-start="962" selection-end="962" vertical-scroll-proportion="-9.807693">
+        <state line="5" column="47" selection-start="174" selection-end="286" vertical-scroll-proportion="-3.2692308">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="238" selection-end="238" vertical-scroll-proportion="0.238">
+        <state line="3" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="-1.9615384">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/theme/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="205" column="55" selection-start="9887" selection-end="9887" vertical-scroll-proportion="0.854">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
