@@ -198,7 +198,12 @@
         <script type="text/javascript" src="{{STATIC_URL}}rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
         <script type="text/javascript" src="{{STATIC_URL}}rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 	    <script type="text/javascript" src="{{STATIC_URL}}js/revolution.custom.js"></script>
-
+            <script type="text/javascript">
+            $(document).ready(function(){
+                $('.simplebullets').css('width','none!important');
+                console.log($('.simplebullets').css());
+            })
+            </script>
 	    <script type="text/javascript" src="{{STATIC_URL}}js/custom.js"></script>
 
 {% render_block "js" %}
