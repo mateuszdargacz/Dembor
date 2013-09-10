@@ -7,7 +7,7 @@
     </list>
     <ignored path="debor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378828779161" ignored="false" />
+    <file path="/Dummy.txt" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378829087596" ignored="false" />
     <file path="/settings.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376123691113" ignored="false" />
     <file path="/main.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375628836328" ignored="false" />
     <file path="/custom.css" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378561392479" ignored="false" />
@@ -51,7 +51,7 @@
     <file path="$USER_HOME$/darbud/darbud/src/libs/cmsplugin_gallery/admin.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375731726297" ignored="false" />
     <file path="$USER_HOME$/darbud/darbud/src/libs/cmsplugin_gallery/models.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375734534481" ignored="false" />
     <file path="$USER_HOME$/darbud/darbud/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375769882366" ignored="false" />
-    <file path="/gallery.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378828878813" ignored="false" />
+    <file path="/gallery.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378829084204" ignored="false" />
     <file path="$USER_HOME$/darbud/darbud/src/theme/templates/cms/site/realizacje.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375735128304" ignored="false" />
     <file path="/realizacje.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376205890934" ignored="false" />
     <file path="$USER_HOME$/darbud/darbud/src/theme/templates/base.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375983230119" ignored="false" />
@@ -89,8 +89,10 @@
       <file leaf-file-name="gallery.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="75" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.652">
-              <folding />
+            <state line="28" column="47" selection-start="1628" selection-end="1628" vertical-scroll-proportion="0.686">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -627,7 +629,11 @@
       <created>1378828781661</created>
       <updated>1378828781661</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="filler">
+      <created>1378828894768</created>
+      <updated>1378828894768</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -819,8 +825,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="75" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.652">
-          <folding />
+        <state line="28" column="47" selection-start="1628" selection-end="1628" vertical-scroll-proportion="0.686">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

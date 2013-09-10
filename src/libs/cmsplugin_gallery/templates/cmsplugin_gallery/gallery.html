@@ -25,6 +25,8 @@
                                 {% thumbnail image.src.url "220x160" crop="center" as im2 %}
                                 {{ im }}{{ im2 }}
                                 {{ im2.url }}
+                                {{ image.width }}
+                                {{ image.height }}
 								<img alt="{{ image.alt }}" style="width: 200px; height: 160px;" src="{{ image.src.url }}">
 					        </a>
                         </li>
