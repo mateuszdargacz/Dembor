@@ -1,7 +1,12 @@
 {% load sekizai_tags %}
 {% addtoblock "css" %}{% endaddtoblock %}
 {% addtoblock "js" %}
-
+      <script type="text/javascript">
+            $(document).ready(function(){
+                $('.simplebullets').css('width','none!important');
+                console.log($('.simplebullets').css());
+            })
+            </script>
 
 {% endaddtoblock %}
 
