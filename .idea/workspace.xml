@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/libs/cms/templatetags/cms_tags.py" afterPath="$PROJECT_DIR$/src/libs/cms/templatetags/cms_tags.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html" afterPath="$PROJECT_DIR$/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/libs/sekizai/templatetags/sekizai_tags.py" afterPath="$PROJECT_DIR$/src/libs/sekizai/templatetags/sekizai_tags.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/libs/easy_thumbnails/templatetags/thumbnail.py" afterPath="$PROJECT_DIR$/src/libs/easy_thumbnails/templatetags/thumbnail.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="debor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378829087596" ignored="false" />
+    <file path="/Dummy.txt" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378829222335" ignored="false" />
     <file path="/settings.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376123691113" ignored="false" />
     <file path="/main.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375628836328" ignored="false" />
     <file path="/custom.css" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378561392479" ignored="false" />
@@ -16,7 +19,7 @@
     <file path="/local_settings.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375988336321" ignored="false" />
     <file path="$USER_HOME$/darbud/darbud/src/settings.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375363964902" ignored="false" />
     <file path="/base.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1377967126789" ignored="false" />
-    <file path="/a.dummy" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1377968109263" ignored="false" />
+    <file path="/a.dummy" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378829518435" ignored="false" />
     <file path="/cmsplugin_slideshow_parallax.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378825306459" ignored="false" />
     <file path="/offer.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376135109871" ignored="false" />
     <file path="/tabs.css" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375636253727" ignored="false" />
@@ -51,7 +54,7 @@
     <file path="$USER_HOME$/darbud/darbud/src/libs/cmsplugin_gallery/admin.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375731726297" ignored="false" />
     <file path="$USER_HOME$/darbud/darbud/src/libs/cmsplugin_gallery/models.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375734534481" ignored="false" />
     <file path="$USER_HOME$/darbud/darbud/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375769882366" ignored="false" />
-    <file path="/gallery.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378829219422" ignored="false" />
+    <file path="/gallery.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378829675458" ignored="false" />
     <file path="$USER_HOME$/darbud/darbud/src/theme/templates/cms/site/realizacje.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375735128304" ignored="false" />
     <file path="/realizacje.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376205890934" ignored="false" />
     <file path="$USER_HOME$/darbud/darbud/src/theme/templates/base.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375983230119" ignored="false" />
@@ -67,6 +70,8 @@
     <file path="/subject.txt" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376207005222" ignored="false" />
     <file path="$PROJECT_DIR$/../darbud/darbud/src/apps/cmsplugin_contact/templates/cmsplugin_contact/subject.txt" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376206714457" ignored="false" />
     <file path="$PROJECT_DIR$/../darbud/darbud/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378825306791" ignored="false" />
+    <file path="/sekizai_tags.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378829427779" ignored="false" />
+    <file path="/cms_tags.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378829624485" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +94,7 @@
       <file leaf-file-name="gallery.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="45" selection-start="1630" selection-end="1630" vertical-scroll-proportion="0.686">
+            <state line="27" column="0" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.592">
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#!!top" expanded="true" />
               </folding>
@@ -109,7 +114,27 @@
       <file leaf-file-name="cmsplugin_slideshow_parallax.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="32" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0">
+            <state line="0" column="17" selection-start="8" selection-end="20" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sekizai_tags.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/libs/sekizai/templatetags/sekizai_tags.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="139" column="0" selection-start="4193" selection-end="4193" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cms_tags.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/libs/cms/templatetags/cms_tags.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="424" column="17" selection-start="14904" selection-end="14917" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,7 +152,7 @@
       <file leaf-file-name="thumbnail.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/libs/easy_thumbnails/templatetags/thumbnail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="4" selection-start="3808" selection-end="3808" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -146,33 +171,6 @@
         <entry file="file://$PROJECT_DIR$/src/theme/templates/cms/site/main.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="56" column="12" selection-start="2428" selection-end="2428" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="offer.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/theme/templates/cms/site/offer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="realizacje.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/theme/templates/cms/site/realizacje.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="47" selection-start="174" selection-end="286" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/apps/cmsplugin_contact/templates/cmsplugin_contact/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -207,9 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/apps/cmsplugin_filter_gallery/models.py" />
-        <option value="$PROJECT_DIR$/src/apps/cmsplugin_filter_gallery/cms_plugins.py" />
-        <option value="$PROJECT_DIR$/src/libs/cmsplugin_gallery/cms_plugins.py" />
         <option value="$PROJECT_DIR$/src/libs/cmsplugin_gallery/admin.py" />
         <option value="$PROJECT_DIR$/src/libs/cmsplugin_gallery/models.py" />
         <option value="$PROJECT_DIR$/src/local_settings.py" />
@@ -222,6 +217,9 @@
         <option value="$PROJECT_DIR$/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html" />
         <option value="$PROJECT_DIR$/src/theme/templates/base.html" />
         <option value="$PROJECT_DIR$/src/theme/static/css/custom.css" />
+        <option value="$PROJECT_DIR$/src/libs/easy_thumbnails/templatetags/thumbnail.py" />
+        <option value="$PROJECT_DIR$/src/libs/sekizai/templatetags/sekizai_tags.py" />
+        <option value="$PROJECT_DIR$/src/libs/cms/templatetags/cms_tags.py" />
         <option value="$PROJECT_DIR$/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html" />
       </list>
     </option>
@@ -294,6 +292,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dembor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dembor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="media" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -334,7 +350,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cmsplugin_gallery" />
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dembor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dembor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templatetags" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -637,7 +679,11 @@
       <created>1378829090491</created>
       <updated>1378829090491</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="filler">
+      <created>1378829225403</created>
+      <updated>1378829225403</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -730,21 +776,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/local_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="31" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/site.wsgi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="53" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="36" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0">
@@ -774,13 +805,6 @@
     <entry file="file://$PROJECT_DIR$/src/theme/templates/cms/site/realizacje.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="47" selection-start="174" selection-end="286" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="32" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -822,14 +846,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/libs/easy_thumbnails/templatetags/thumbnail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="4" selection-start="3808" selection-end="3808" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="8" selection-end="20" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/sekizai/templatetags/sekizai_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="0" selection-start="4193" selection-end="4193" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/classytags/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="11" selection-start="2530" selection-end="2530" vertical-scroll-proportion="0.49536178">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/cms/templatetags/cms_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="424" column="17" selection-start="14904" selection-end="14917" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="45" selection-start="1630" selection-end="1630" vertical-scroll-proportion="0.686">
+        <state line="27" column="0" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.592">
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#!!top" expanded="true" />
           </folding>

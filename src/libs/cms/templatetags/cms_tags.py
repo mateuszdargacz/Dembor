@@ -420,3 +420,9 @@ class CMSToolbar(InclusionTag):
         context['CMS_TOOLBAR_CONFIG'] = context['request'].toolbar.as_json(context)
         return context
 register.tag(CMSToolbar)
+
+@register.simple_tag
+def get_exp_width(width):
+    if width <500:
+        return '160'
+    return '220'

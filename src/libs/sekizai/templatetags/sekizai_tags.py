@@ -136,3 +136,4 @@ class Addtoblock(SekizaiTag):
         context[varname][name].append(rendered_contents)
         return ""
 register.tag(Addtoblock)
+
