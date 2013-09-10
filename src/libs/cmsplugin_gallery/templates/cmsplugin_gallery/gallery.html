@@ -20,7 +20,11 @@
                         {% for image in images %}
                         <li class="span3 small hp-wrapper item isotope-item {{ image.category }}" style="position: absolute; left: 0px; top: 0px; -webkit-transform: translate3d(480px, 0px, 0px);">
                             <a href="{{ image.src.url }}" rel="group" class="top-link fancybox thumbnail">
-								<img alt="{{ image.alt }}" style="width: 220px; height: 160px;" src="{{ image.src.url }}">
+                                {% thumbnail image.src "220x160" crop="center" as im %}
+                                {{ im.url }}
+                                {% thumbnail image "220x160" crop="center" as im2 %}
+                                {{ im2.url }}
+								<img alt="{{ image.alt }}" style="width: 220px; height: 160px;" src="{{ im2.url }}">
 					        </a>
                         </li>
 

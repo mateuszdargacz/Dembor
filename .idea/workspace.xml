@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/theme/static/css/custom.css" afterPath="$PROJECT_DIR$/src/theme/static/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html" afterPath="$PROJECT_DIR$/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="debor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378561246308" ignored="false" />
+    <file path="/Dummy.txt" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378828535628" ignored="false" />
     <file path="/settings.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376123691113" ignored="false" />
     <file path="/main.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375628836328" ignored="false" />
     <file path="/custom.css" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378561392479" ignored="false" />
@@ -17,7 +17,7 @@
     <file path="$USER_HOME$/darbud/darbud/src/settings.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375363964902" ignored="false" />
     <file path="/base.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1377967126789" ignored="false" />
     <file path="/a.dummy" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1377968109263" ignored="false" />
-    <file path="/cmsplugin_slideshow_parallax.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1377965770202" ignored="false" />
+    <file path="/cmsplugin_slideshow_parallax.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378825306459" ignored="false" />
     <file path="/offer.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376135109871" ignored="false" />
     <file path="/tabs.css" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375636253727" ignored="false" />
     <file path="$USER_HOME$/promore/promore/apps/order_cv/models.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375709592635" ignored="false" />
@@ -51,7 +51,7 @@
     <file path="$USER_HOME$/darbud/darbud/src/libs/cmsplugin_gallery/admin.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375731726297" ignored="false" />
     <file path="$USER_HOME$/darbud/darbud/src/libs/cmsplugin_gallery/models.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375734534481" ignored="false" />
     <file path="$USER_HOME$/darbud/darbud/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375769882366" ignored="false" />
-    <file path="/gallery.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376585908343" ignored="false" />
+    <file path="/gallery.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378828531825" ignored="false" />
     <file path="$USER_HOME$/darbud/darbud/src/theme/templates/cms/site/realizacje.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375735128304" ignored="false" />
     <file path="/realizacje.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376205890934" ignored="false" />
     <file path="$USER_HOME$/darbud/darbud/src/theme/templates/base.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375983230119" ignored="false" />
@@ -66,7 +66,7 @@
     <file path="$PROJECT_DIR$/../darbud/darbud/src/theme/templates/cms/site/realizacje.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376206085953" ignored="false" />
     <file path="/subject.txt" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376207005222" ignored="false" />
     <file path="$PROJECT_DIR$/../darbud/darbud/src/apps/cmsplugin_contact/templates/cmsplugin_contact/subject.txt" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376206714457" ignored="false" />
-    <file path="$PROJECT_DIR$/../darbud/darbud/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376732845906" ignored="false" />
+    <file path="$PROJECT_DIR$/../darbud/darbud/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378825306791" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,11 +86,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gallery.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="gallery.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="101" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="15" column="29" selection-start="637" selection-end="637" vertical-scroll-proportion="0.23781677">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/theme/static/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3122" column="45" selection-start="67240" selection-end="67240" vertical-scroll-proportion="0.5912548">
+            <state line="3122" column="45" selection-start="67240" selection-end="67240" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,7 +127,7 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/theme/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="66" selection-start="1611" selection-end="1613" vertical-scroll-proportion="-1.9350649">
+            <state line="27" column="66" selection-start="1611" selection-end="1613" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,7 +136,7 @@
       <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/theme/templates/cms/site/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="12" selection-start="2428" selection-end="2428" vertical-scroll-proportion="-4.423077">
+            <state line="56" column="12" selection-start="2428" selection-end="2428" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -143,7 +145,7 @@
       <file leaf-file-name="offer.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/theme/templates/cms/site/offer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="-0.0">
+            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -216,18 +218,18 @@
         <option value="$PROJECT_DIR$/src/wsgi.py" />
         <option value="$PROJECT_DIR$/src/theme/templates/cms/site/realizacje.html" />
         <option value="$PROJECT_DIR$/src/apps/cmsplugin_contact/templates/cmsplugin_contact/subject.txt" />
-        <option value="$PROJECT_DIR$/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html" />
         <option value="$PROJECT_DIR$/src/theme/templates/cms/site/offer.html" />
         <option value="$PROJECT_DIR$/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html" />
         <option value="$PROJECT_DIR$/src/theme/templates/base.html" />
         <option value="$PROJECT_DIR$/src/theme/static/css/custom.css" />
+        <option value="$PROJECT_DIR$/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -256,7 +258,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -395,18 +396,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -653,20 +655,23 @@
       <created>1378561255575</created>
       <updated>1378561255575</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="filler">
+      <created>1378561403980</created>
+      <updated>1378561403980</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959743" sideWeight="0.75868374" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3060606" sideWeight="0.7696246" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31079027" sideWeight="0.7696246" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -676,6 +681,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23037542" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -723,7 +729,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="base features" />
+    <option name="LAST_COMMIT_MESSAGE" value="filler" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -738,6 +744,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="base features" />
+    <MESSAGE value="filler" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -798,13 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="101" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/theme/templates/cms/site/realizacje.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="47" selection-start="174" selection-end="286" vertical-scroll-proportion="0.0">
@@ -828,22 +828,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/theme/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="66" selection-start="1611" selection-end="1613" vertical-scroll-proportion="-1.9350649">
+        <state line="27" column="66" selection-start="1611" selection-end="1613" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/theme/templates/cms/site/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="12" selection-start="2428" selection-end="2428" vertical-scroll-proportion="-4.423077">
+        <state line="56" column="12" selection-start="2428" selection-end="2428" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/theme/static/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3122" column="45" selection-start="67240" selection-end="67240" vertical-scroll-proportion="0.5912548">
+        <state line="3122" column="45" selection-start="67240" selection-end="67240" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="29" selection-start="637" selection-end="637" vertical-scroll-proportion="0.23781677">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
