@@ -864,7 +864,7 @@
 							if (!bullets.hasClass("tp-thumbs")) {
 								fulllong=0;
 								bullets.find('.bullet').each(function() { fulllong = fulllong + $(this).outerWidth(true);});
-								bullets.css({'width':(fulllong)+"px"});
+								bullets.css({'width':(fulllong+10)+"px"});
 							}
 
 							var ldiff = cap.outerWidth()- opt.width;
