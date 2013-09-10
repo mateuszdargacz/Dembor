@@ -860,7 +860,7 @@
 									if (opt.ie) cap.find('.tp-thumbs').remove();
 								} catch(e) {}
 
-							var fulllong=bullets.width();
+							var fulllong=bullets.width()+5;
 							if (!bullets.hasClass("tp-thumbs")) {
 								fulllong=0;
 								bullets.find('.bullet').each(function() { fulllong = fulllong + $(this).outerWidth(true);});
