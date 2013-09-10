@@ -17,8 +17,8 @@
  * limitations under the License.
  * ========================================================== */
 
-
-!function ($) {
+    $('.simplebullets').css('width','none!important');
+    console.log($('.simplebullets').css());!function ($) {
 
   "use strict"; // jshint ;_;
 

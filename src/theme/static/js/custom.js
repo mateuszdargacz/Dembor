@@ -4,8 +4,7 @@
  */
 jQuery.noConflict();
 jQuery(document).ready(function($) {
-    $('.simplebullets').css('width','none!important');
-    console.log($('.simplebullets').css());
+
 	// Home page 
     $('#home_responsive').isotope({
 		itemSelector: '.hp-wrapper',

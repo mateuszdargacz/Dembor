@@ -3,12 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/theme/templates/base.html" afterPath="$PROJECT_DIR$/src/theme/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/theme/static/js/bootstrap.js" afterPath="$PROJECT_DIR$/src/theme/static/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/theme/static/js/custom.js" afterPath="$PROJECT_DIR$/src/theme/static/js/custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/theme/static/rs-plugin/js/jquery.themepunch.revolution.js" afterPath="$PROJECT_DIR$/src/theme/static/rs-plugin/js/jquery.themepunch.revolution.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="debor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378846654660" ignored="false" />
+    <file path="/Dummy.txt" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378847061937" ignored="false" />
     <file path="/settings.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376123691113" ignored="false" />
     <file path="/main.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375628836328" ignored="false" />
     <file path="/custom.css" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378561392479" ignored="false" />
@@ -138,15 +140,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/theme/static/css/custom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3122" column="45" selection-start="67240" selection-end="67240" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="thumbnail.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/libs/easy_thumbnails/templatetags/thumbnail.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -156,12 +149,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/theme/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="198" column="99" selection-start="9492" selection-end="9492" vertical-scroll-proportion="0.58474576">
+            <state line="193" column="64" selection-start="8966" selection-end="8966" vertical-scroll-proportion="-0.85714287">
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/theme/static/js/bootstrap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="43" selection-start="961" selection-end="961" vertical-scroll-proportion="0.8690096">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,7 +174,7 @@
       <file leaf-file-name="custom.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/theme/static/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="4" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
+            <state line="6" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -179,7 +183,7 @@
       <file leaf-file-name="jquery.themepunch.revolution.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/theme/static/rs-plugin/js/jquery.themepunch.revolution.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="862" column="58" selection-start="25353" selection-end="25353" vertical-scroll-proportion="0.0">
+            <state line="3141" column="0" selection-start="98024" selection-end="98024" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -214,7 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/local_settings.py" />
         <option value="$PROJECT_DIR$/src/settings.py" />
         <option value="$PROJECT_DIR$/src/site.wsgi" />
         <option value="$PROJECT_DIR$/src/wsgi.py" />
@@ -227,9 +230,10 @@
         <option value="$PROJECT_DIR$/src/libs/cms/templatetags/cms_tags.py" />
         <option value="$PROJECT_DIR$/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html" />
         <option value="$PROJECT_DIR$/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html" />
-        <option value="$PROJECT_DIR$/src/theme/static/js/custom.js" />
-        <option value="$PROJECT_DIR$/src/theme/static/rs-plugin/js/jquery.themepunch.revolution.js" />
         <option value="$PROJECT_DIR$/src/theme/templates/base.html" />
+        <option value="$PROJECT_DIR$/src/theme/static/rs-plugin/js/jquery.themepunch.revolution.js" />
+        <option value="$PROJECT_DIR$/src/theme/static/js/custom.js" />
+        <option value="$PROJECT_DIR$/src/theme/static/js/bootstrap.js" />
       </list>
     </option>
   </component>
@@ -712,7 +716,11 @@
       <created>1378846659801</created>
       <updated>1378846659801</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="filler">
+      <created>1378847067440</created>
+      <updated>1378847067440</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -805,13 +813,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/apps/cmsplugin_contact/templates/cmsplugin_contact/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/apps/cmsplugin_contact/templates/cmsplugin_contact/email.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" />
@@ -898,25 +899,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/theme/static/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/theme/static/rs-plugin/js/jquery.themepunch.revolution.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="862" column="58" selection-start="25353" selection-end="25353" vertical-scroll-proportion="0.0">
+        <state line="3141" column="0" selection-start="98024" selection-end="98024" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/theme/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="99" selection-start="9492" selection-end="9492" vertical-scroll-proportion="0.58474576">
+        <state line="193" column="64" selection-start="8966" selection-end="8966" vertical-scroll-proportion="-0.85714287">
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/theme/static/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/theme/static/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="43" selection-start="961" selection-end="961" vertical-scroll-proportion="0.8690096">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>

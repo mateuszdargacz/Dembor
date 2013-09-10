@@ -860,7 +860,7 @@
 									if (opt.ie) cap.find('.tp-thumbs').remove();
 								} catch(e) {}
 
-							var fulllong=bullets.width()+5;
+							var fulllong=bullets.width();
 							if (!bullets.hasClass("tp-thumbs")) {
 								fulllong=0;
 								bullets.find('.bullet').each(function() { fulllong = fulllong + $(this).outerWidth(true);});
@@ -3137,6 +3137,7 @@
 						});
 			}
 		}
+
 
 
 
