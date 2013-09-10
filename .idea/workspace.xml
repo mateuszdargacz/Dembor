@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/theme/templates/base.html" afterPath="$PROJECT_DIR$/src/theme/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html" afterPath="$PROJECT_DIR$/src/apps/slideshow_parallax/templates/slideshow_parallax/cmsplugin_slideshow_parallax.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="debor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378845830360" ignored="false" />
+    <file path="/Dummy.txt" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378846212724" ignored="false" />
     <file path="/settings.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376123691113" ignored="false" />
     <file path="/main.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375628836328" ignored="false" />
     <file path="/custom.css" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378561392479" ignored="false" />
@@ -16,7 +15,7 @@
     <file path="$USER_HOME$/darbud/src/theme/templates/base.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1374069840316" ignored="false" />
     <file path="/local_settings.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375988336321" ignored="false" />
     <file path="$USER_HOME$/darbud/darbud/src/settings.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375363964902" ignored="false" />
-    <file path="/base.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1377967126789" ignored="false" />
+    <file path="/base.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378846486502" ignored="false" />
     <file path="/a.dummy" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378845687854" ignored="false" />
     <file path="/cmsplugin_slideshow_parallax.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378825306459" ignored="false" />
     <file path="/offer.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376135109871" ignored="false" />
@@ -159,7 +158,7 @@
       <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/theme/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="205" column="66" selection-start="9891" selection-end="9891" vertical-scroll-proportion="0.7643312">
+            <state line="202" column="14" selection-start="9742" selection-end="9926" vertical-scroll-proportion="0.6019108">
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -691,7 +690,11 @@
       <created>1378845834820</created>
       <updated>1378845834820</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="filler">
+      <created>1378846216106</created>
+      <updated>1378846216106</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -893,7 +896,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/theme/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="66" selection-start="9891" selection-end="9891" vertical-scroll-proportion="0.7643312">
+        <state line="202" column="14" selection-start="9742" selection-end="9926" vertical-scroll-proportion="0.6019108">
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
