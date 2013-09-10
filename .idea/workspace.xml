@@ -51,7 +51,7 @@
     <file path="$USER_HOME$/darbud/darbud/src/libs/cmsplugin_gallery/admin.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375731726297" ignored="false" />
     <file path="$USER_HOME$/darbud/darbud/src/libs/cmsplugin_gallery/models.py" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375734534481" ignored="false" />
     <file path="$USER_HOME$/darbud/darbud/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375769882366" ignored="false" />
-    <file path="/gallery.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378828531825" ignored="false" />
+    <file path="/gallery.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1378828741270" ignored="false" />
     <file path="$USER_HOME$/darbud/darbud/src/theme/templates/cms/site/realizacje.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375735128304" ignored="false" />
     <file path="/realizacje.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1376205890934" ignored="false" />
     <file path="$USER_HOME$/darbud/darbud/src/theme/templates/base.html" changelist="bba7ef9b-d974-41cd-bdbe-df50fd3a4cce" time="1375983230119" ignored="false" />
@@ -86,13 +86,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gallery.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="gallery.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="29" selection-start="637" selection-end="637" vertical-scroll-proportion="0.23781677">
+            <state line="24" column="38" selection-start="1380" selection-end="1380" vertical-scroll-proportion="-10.576923">
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/libs/cmsplugin_gallery/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,10 +124,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thumbnail.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="thumbnail.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/libs/easy_thumbnails/templatetags/thumbnail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="8" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0">
+            <state line="113" column="4" selection-start="3808" selection-end="3808" vertical-scroll-proportion="-1.5602969">
               <folding />
             </state>
           </provider>
@@ -155,15 +164,6 @@
         <entry file="file://$PROJECT_DIR$/src/theme/templates/cms/site/realizacje.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="5" column="47" selection-start="174" selection-end="286" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="subject.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/apps/cmsplugin_contact/templates/cmsplugin_contact/subject.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="35" selection-start="34" selection-end="35" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -294,7 +294,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
+              <option name="myItemId" value="media" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -312,11 +312,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,45 +330,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dembor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dembor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms" />
+              <option name="myItemId" value="cmsplugin_gallery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -659,13 +621,18 @@
       <created>1378561403980</created>
       <updated>1378561403980</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="filler">
+      <created>1378828540038</created>
+      <updated>1378828540038</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -681,7 +648,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23037542" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -793,18 +759,6 @@
         <state line="2" column="0" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/libs/cmsplugin_gallery/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="-0.8725702" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/libs/easy_thumbnails/templatetags/thumbnail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="8" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/theme/templates/cms/site/realizacje.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="47" selection-start="174" selection-end="286" vertical-scroll-proportion="0.0">
@@ -847,12 +801,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/cmsplugin_gallery/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/libs/cmsplugin_gallery/templates/cmsplugin_gallery/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="29" selection-start="637" selection-end="637" vertical-scroll-proportion="0.23781677">
+        <state line="24" column="38" selection-start="1380" selection-end="1380" vertical-scroll-proportion="-10.576923">
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/easy_thumbnails/templatetags/thumbnail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="4" selection-start="3808" selection-end="3808" vertical-scroll-proportion="-1.5602969">
+          <folding />
         </state>
       </provider>
     </entry>

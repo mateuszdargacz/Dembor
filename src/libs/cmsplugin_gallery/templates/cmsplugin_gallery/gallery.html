@@ -22,9 +22,10 @@
                             <a href="{{ image.src.url }}" rel="group" class="top-link fancybox thumbnail">
                                 {% thumbnail image.src "220x160" crop="center" as im %}
                                 {{ im.url }}
-                                {% thumbnail image "220x160" crop="center" as im2 %}
+                                {% thumbnail image.src.url "220x160" crop="center" as im2 %}
+                                {{ im }}{{ im2 }}
                                 {{ im2.url }}
-								<img alt="{{ image.alt }}" style="width: 220px; height: 160px;" src="{{ im2.url }}">
+								<img alt="{{ image.alt }}" style="width: 220px; height: 160px;" src="{{ im2 }}">
 					        </a>
                         </li>
 
